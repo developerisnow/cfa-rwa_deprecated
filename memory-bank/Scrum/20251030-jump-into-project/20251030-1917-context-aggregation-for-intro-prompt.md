@@ -75,10 +75,11 @@ yury-founder-discussions  ❯ tree /Users/user/__Repositories/prj_Cifra-rwa-exac
 
 # Prompts to Agents SWE
 
-Your agentID=019a3616-5a4f-7ad3-94a4-f06c730c5130 and use partAgentID=5a4f
-Your output folder will be folder, create it `/Users/user/__Repositories/prj_Cifra-rwa-exachange-assets/memory-bank/Scrum/20251030-jump-into-project/{partAgentID}/`
 
 Your agentID=bb7de756-171f-4fce-ae45-534e017ebaa7 and use partAgentID=171f
+Your output folder will be folder, create it `/Users/user/__Repositories/prj_Cifra-rwa-exachange-assets/memory-bank/Scrum/20251030-jump-into-project/{partAgentID}/`
+
+Your agentID=019a362f-76ca-7272-909e-362716cf233d  and use partAgentID=76ca
 Your output folder will be folder, create it `/Users/user/__Repositories/prj_Cifra-rwa-exachange-assets/memory-bank/Scrum/20251030-jump-into-project/{partAgentID}/`
 
 - [ ] To learn Yury nuances  @memory-bank/context/previous-context-yury-founder-discussions/20251030-1850-gem2.5p-Yury-Mishinskiy-info-analysis.md
