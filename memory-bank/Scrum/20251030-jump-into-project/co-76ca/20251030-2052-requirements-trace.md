@@ -1,3 +1,15 @@
+---
+created: 2025-10-30 20:52
+updated: 2025-10-31 07:25
+type: requirements-trace
+sphere: [requirements]
+topic: [traceability]
+author: codex
+agentID: 019a362f-76ca-7272-909e-362716cf233d
+partAgentID: [co-76ca]
+version: 1.0.0
+tags: [trace, checklist]
+---
 TL;DR
 - Трассировка требований Юрия и моих мыслей в чекбокс‑формате с вложенностью и ссылками на первоисточники (file:line).
 - Покрывает: лицензия ОИС, корпоративный блокчейн, Spec‑first подход, возможный реюз BitChange, MVP первички, вторичка позже, интеграции банк/госуслуги, санкции/BRICS стек.

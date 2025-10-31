@@ -1,3 +1,15 @@
+---
+created: 2025-10-30 20:47
+updated: 2025-10-31 07:25
+type: checklist
+sphere: [requirements, architecture, compliance]
+topic: [traceability, mvp]
+author: codex
+agentID: 019a362f-76ca-7272-909e-362716cf233d
+partAgentID: [co-76ca]
+version: 1.1.0
+tags: [master-checklist, trace]
+---
 TL;DR
 - Полный чек‑лист покрывает требования Юрия и мои мысли; вложенность отражена под‑чекбоксами.
 - Разбивка: Домены, НФ‑требования, Юр/регуляторика, Интеграции, UX, Рынок, Данные/отчётность, Deep‑Research.

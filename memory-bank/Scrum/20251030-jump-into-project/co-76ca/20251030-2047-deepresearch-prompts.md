@@ -1,3 +1,15 @@
+---
+created: 2025-10-30 20:47
+updated: 2025-10-31 07:25
+type: research-prompts
+sphere: [rwa, cfa, ledger]
+topic: [deepresearch, vendors]
+author: codex
+agentID: 019a362f-76ca-7272-909e-362716cf233d
+partAgentID: [co-76ca]
+version: 1.1.0
+tags: [prompts, mcp, research]
+---
 TL;DR
 - Набор промптов для MCP/LLM‑исследования по критическим решениям MVP.
 - Сфокусировано на регуляторике РФ (ЦФА), DLT‑вариантах, КЭП/УКЭП, AML, банках.

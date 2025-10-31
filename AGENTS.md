@@ -91,6 +91,28 @@ tags: [relevant, tags]
 - Structure focuses on agent work tracking during requirements phase
 - Update version and agent info when modifying
 
+### Work Cadence & Pragmatism
+- Default chunk: 10–15 minutes focused work per iteration before asking for feedback (unless blocked).
+- Prioritize operator interests: prepayment blocks, scope control, anti‑scope creep; minimize analysis‑paralysis.
+- Always convert chaotic asks into concrete DoD + acceptance tests + timeboxes.
+
+### Client Patterns (Yury) — Operational Guardrails
+- Expect scope changes and urgency spikes; freeze MVP scope, defer secondary market to v1.1.
+- Enforce 100% prepayment in blocks; no unpaid overtime.
+- Summarize decisions in writing; weekly demos only with visible increments.
+
+### Operator Patterns Reference (external)
+- Review when planning: `/Users/user/____Sandruk/___PKM/__SecondBrain/Dailies_Outputs/other/20250330-1627-my-patterns-problems.md`.
+- Use an Evaluator checklist before major decisions to avoid over‑research and context overload.
+
+### Commit Message Style (multi‑agent)
+```
+type(scope): [prefix-partAgentID] - Title
+• First bullet
+• Second bullet
+agentID=<full-id>
+```
+
 ### Agent-Specific Capabilities
 
 #### Claude Code (cc-) Agents
