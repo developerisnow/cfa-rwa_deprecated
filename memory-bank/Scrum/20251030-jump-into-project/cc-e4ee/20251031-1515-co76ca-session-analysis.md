@@ -138,15 +138,15 @@ graph LR
 
 **Master Checklist Created:**
 
-| Category | Items | Status | File Reference |
-|----------|-------|--------|----------------|
-| MVP Scope | 6 domains defined | ✅ | `20251030-2047-master-checklist.md` |
-| Ledger Decisions | 4 options (Fabric/Besu/immudb/DPoS) | ⏳ Pending | Same |
-| Architecture/NFR | API Gateway, Kafka, Postgres, Observability | ✅ Defined | Same |
-| Compliance/Legal | 259-ФЗ, 63-ФЗ, AML/CFT, PDN, Travel Rule | ✅ Mapped | Same |
-| Integrations | Bank DvP, Payment rails, KYC, TSA | ⏳ Shortlist pending | Same |
-| UX/Portals | 7 UI modules from tables | 📋 Catalogued | Same |
-| Secondary Market | RFQ/OTC (v1.1), Orderbooks (v1.2) | ⏳ Post-MVP | Same |
+| Category         | Items                                       | Status              | File Reference                      |
+| ---------------- | ------------------------------------------- | ------------------- | ----------------------------------- |
+| MVP Scope        | 6 domains defined                           | ✅                   | `20251030-2047-master-checklist.md` |
+| Ledger Decisions | 4 options (Fabric/Besu/immudb/DPoS)         | ⏳ Pending           | Same                                |
+| Architecture/NFR | API Gateway, Kafka, Postgres, Observability | ✅ Defined           | Same                                |
+| Compliance/Legal | 259-ФЗ, 63-ФЗ, AML/CFT, PDN, Travel Rule    | ✅ Mapped            | Same                                |
+| Integrations     | Bank DvP, Payment rails, KYC, TSA           | ⏳ Shortlist pending | Same                                |
+| UX/Portals       | 7 UI modules from tables                    | 📋 Catalogued       | Same                                |
+| Secondary Market | RFQ/OTC (v1.1), Orderbooks (v1.2)           | ⏳ Post-MVP          | Same                                |
 
 **Requirements Trace Document:**
 - Links Yury's asks to specific file:line references

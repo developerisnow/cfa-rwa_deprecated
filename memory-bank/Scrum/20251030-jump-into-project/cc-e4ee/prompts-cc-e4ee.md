@@ -28,6 +28,9 @@ First some organizational stuff and deep dive into context then solve next tasks
 Read previous session logs:
 1. Prompts @memory-bank/Scrum/20251030-jump-into-project/171f/prompts-cc-171f.md
 2. Overview @memory-bank/Scrum/20251030-jump-into-project/171f/overview-cc-171f.md
+3. memory-bank/Scrum/20251030-jump-into-project/cc-e4ee/prompts-cc-e4ee.md
+4. memory-bank/Scrum/20251030-jump-into-project/cc-e4ee/overview-cc-e4ee.md
+5. Main doc of Codex-Cli agent You must read not a by main agent, by task tool sub-agent, `wc -l $file` ~ 4K lines and 296Kb divide reading by parts memory-bank/Scrum/20251030-jump-into-project/co-76ca/20251031-1503-full-76ca.session.md
 
 Read outputs
 1. @memory-bank/Scrum/20251030-jump-into-project/171f/20251030-2030-comprehensive-analysis-cifra-rwa.md
@@ -57,6 +60,8 @@ Follow instructions:
 
 0 directories, 7 files
 ```
+read
+
 - [ ] But for keep consistency/transparency/order you'll need to add some things to the frontmatter tags of each document, for e.g.
 ```
 ---

@@ -46,3 +46,10 @@ TL;DR
 Метрики
 - Latency/finality (ledger), TPS, p95 end‑to‑end (Emission→DvP), SLA банков/УКЭП.
 
+Glossary Table (to expand)
+| RU term | EN analog | Domain | Why important | Key differences | Related | Checks/Metrics |
+|---|---|---|---|---|---|---|
+| ОИС (оператор инф. системы) | OIS/CFA platform | regulation | Правовой статус платформы | Оператор обмена ≠ ОИС | Регистратор, Депозитарий | Лицензии ЦБ, реестр |
+| ЦФА | DFA/CFA | finance | Базовый объект учёта | Security vs Utility | Токенизация, облигации | Disclosure, XBRL |
+| DvP | Delivery‑vs‑Payment | settlement | Атомарность расчётов | T+0 vs T+1 | ISO 20022, СБП | Finality, отказоустойчивость |
+| УКЭП | QES (qualified e‑signature) | compliance | Юр. значимость операций | ГОСТ/СКЗИ | CryptoPro, TSA | Подписи, журналы |

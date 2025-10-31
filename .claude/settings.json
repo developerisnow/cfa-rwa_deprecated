@@ -9,5 +9,8 @@
     "time",
     "zen-mcp",
   ],
-  "outputStyle": "default"
+  "outputStyle": "default",
+  "env": {
+    "MAX_MCP_OUTPUT_TOKENS": "32000"
+  }  
 }
