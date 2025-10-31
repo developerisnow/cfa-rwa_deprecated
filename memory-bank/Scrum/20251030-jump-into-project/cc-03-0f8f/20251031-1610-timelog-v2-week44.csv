@@ -1,0 +1,14 @@
+Date,Activity_Type,Description_Short,Deliverables,DoD_ID,Hours_Real,Hours_Objective,Rate,Cost,Evidence_Refs,Client_Visible,Agent,Status
+2025-10-30,research,Deep research blockchain platforms for CFA,20251030-2230-deepresearch-blockchain-cfa.md,DoD-RESEARCH-BLOCKCHAIN,3.5,8.0,50,400,"commit:initial",Y,co-76ca,completed
+2025-10-30,research,Research 20 competitor platforms,competitors_all.jsonl + competitors_all.md,DoD-COMP-ANALYSIS,4.0,10.0,50,500,"commit:f06184a",Y,co-76ca,completed
+2025-10-30,analysis,Analyze competitor DvP capabilities,20251031-1100-batch1-qa.md,DoD-COMP-DVP,2.0,5.0,50,250,"commit:fa3471c",Y,co-76ca,completed
+2025-10-31,documentation,Create client kickoff pack,20251031-1125-client-kickoff-pack.md,DoD-CLIENT-SOW,2.5,6.0,50,300,"commit:fd14b74",Y,co-76ca,completed
+2025-10-31,documentation,Create deliverables roadmap,20251031-1129-deliverables-roadmap.md,DoD-ROADMAP,1.5,4.0,50,200,"commit:fd14b74",Y,co-76ca,completed
+2025-10-31,documentation,Create CFA/RWA glossary,20251031-1127-glossary-cfa-rwa.md,DoD-GLOSSARY,1.0,3.0,50,150,"commit:fd14b74",Y,co-76ca,completed
+2025-10-30,architecture,C4 architecture diagrams,20251030-2030-comprehensive-analysis-cifra-rwa.md,DoD-ARCH-C4,3.0,7.0,50,350,"commit:cc-171f",Y,cc-171f,completed
+2025-10-30,planning,Create research plan and roadmap,20251030-2045-research-plan.md,DoD-RESEARCH-PLAN,2.0,5.0,50,250,"commit:cc-171f",Y,cc-171f,completed
+2025-10-31,analysis,Multi-agent work synthesis,20251031-1520-project-alignment-synthesis.md,DoD-SYNTHESIS,2.5,5.0,50,250,"commit:c0acbd9",Y,cc-03-0f8f,completed
+2025-10-31,planning,Critical actions and blockers,20251031-1525-critical-actions-blocker-resolution.md,DoD-BLOCKERS,1.5,3.0,50,150,"commit:c0acbd9",Y,cc-03-0f8f,completed
+2025-10-31,reporting,Create reporting system v2,TimeLog v2 + Templates,DoD-REPORTING,2.0,4.0,50,200,"current",Y,cc-03-0f8f,in_progress
+2025-10-30,call,Initial discussion with Yury,Notes and requirements,DoD-KICKOFF,1.0,1.0,50,50,"memory",Y,alex,completed
+2025-10-31,management,Project coordination and planning,Multiple updates,DoD-MGMT,3.0,6.0,50,300,"multiple",N,alex,completed
