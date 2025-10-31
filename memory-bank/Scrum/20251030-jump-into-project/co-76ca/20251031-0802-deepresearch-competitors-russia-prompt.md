@@ -16,13 +16,13 @@ TL;DR
 - Входные локальные данные: статус‑диаграмма и выгрузки «ОИС/операторы/фичи». Использовать как seed‑лист.
 - Выход: JSON per‑platform + сводная таблица + mermaid‑группировка + список источников (RU‑приоритет) с датами.
 
-Inputs (local, must read first)
-- memory-bank/context/current-context/additional-info-for-analysing/20251022-artefacts/06-20251030-1926-report-finance-cfa-platforms-status.md
-- memory-bank/context/current-context/additional-info-for-analysing/20251022-artefacts/08-CFA_operators__by-sheet_20251026-113923/CFA_operators__all_sheets_20251026-113923.md
-- memory-bank/context/current-context/additional-info-for-analysing/20251022-artefacts/08-CFA_operators__by-sheet_20251026-113923/Основной.csv
-- memory-bank/context/current-context/additional-info-for-analysing/20251022-artefacts/08-CFA_operators__by-sheet_20251026-113923/Рэнкинг_ОИС_ЦФА.csv
-- memory-bank/context/current-context/additional-info-for-analysing/20251022-artefacts/08-CFA_operators__by-sheet_20251026-113923/Фичи___новое.csv
-- memory-bank/context/current-context/additional-info-for-analysing/20251022-artefacts/08-CFA_operators__by-sheet_20251026-113923/Фичи___старое.csv
+Seed datasets (internal names, no file links)
+- «Статус платформ ЦФА в России» — отчёт от 2025‑10‑30 (диаграмма статусов/группировок)
+- «CFA_operators — все листы» — агрегированные таблицы от 2025‑10‑26 (all_sheets)
+- «CFA_operators — Основной» — CSV (ключевые поля по операторам)
+- «CFA_operators — Рэнкинг ОИС ЦФА» — CSV (рейтинги/показатели)
+- «CFA_operators — Фичи (новое)» — CSV (актуальные фичи)
+- «CFA_operators — Фичи (старое)» — CSV (исторические фичи)
 
 Вопрос — Ответ (допущения и фокус)
 1) Юрисдикция и регулятор в фокусе?
@@ -70,12 +70,13 @@ Markdown Summary (per batch)
 - Таблица: Платформа | Статус | Роль | DLT | Custody | УКЭП | DvP/Банк | Вторичка | Источники(кол-во) | Last Checked
 - Mermaid: кластеры по статусам и по DLT‑типу (без скобок в узлах).
 
-Source Priorities (RU‑first)
-1) Официальные сайты/документация платформ (разделы API/технологии/пресс‑релизы)
-2) Реестры ЦБ РФ (ОИС/лицензии), НРД/СПБ Биржа публикации
-3) Деловые медиа: РБК, Ведомости, Коммерсант, Банки.ру
-4) Проф.каналы/сообщества: TG «ЦФА в РФ», Habr (тех.статьи), Github/Code repos
-5) Вакансии/конф‑доклады (как косвенные признаки, помечать Confidence=mid/low)
+Source Priorities (RU‑first, concrete services)
+1) Официальные сайты/доки платформ: Атомайз, Токеон, Лайтхаус, НРД, СПБ Биржа, Сбер (ЦФА), Альфа‑Банк (ЦФА), ВТБ Капитал Трейдинг, Блокчейн Хаб, Системы распределённого реестра
+2) Регуляторы/инфраструктура: Банк России — реестр ОИС (ЦФА), НРД — раскрытия/сообщения, СПБ Биржа — раскрытия
+3) Деловые медиа: РБК, Ведомости, Коммерсант, Банки.ру, Интерфакс (финрынки)
+4) Проф.каналы/сообщества: Telegram «ЦФА в РФ», Habr (тех‑статьи), Github (организации/репозитории платформ)
+5) Корп.реестры (косвенно): СПАРК‑Интерфакс, Rusprofile, Контур‑Фокус — для подтверждения юр.фактов (Confidence=mid/low)
+6) Конф‑доклады/вакансии: митапы/форумы, HH.ru вакансии (stack‑подсказки; Confidence=mid/low)
 
 Process / Checklist
 - [ ] Импортировать seed‑площадки из локальных файлов (06‑report, all_sheets.md, CSV).
@@ -92,10 +93,10 @@ Seed Platform List (из локальных файлов)
 - Ожидают лицензий (2): Статус, Спутник.
 
 Search Hints (sample queries, RU)
-- "<Платформа> ЦФА технология", "<Платформа> блокчейн платформа", "<Платформа> DLT Besu Fabric Quorum",
-- "<Платформа> УКЭП КЭП CryptoPro ГОСТ", "<Платформа> HSM MPC ключи",
-- "<Платформа> DvP банк партнёр ISO 20022 СБП",
-- "<Платформа> API документация OpenAPI разработчикам".
+- «<Платформа> ЦФА технология», «<Платформа> блокчейн Besu Fabric Quorum», «<Платформа> DLT»
+- «<Платформа> УКЭП КЭП CryptoPro ГОСТ», «<Платформа> HSM MPC ключи вендор»
+- «<Платформа> DvP банк партнёр ISO 20022 СБП», «<Платформа> клиринг расчёты»
+- «<Платформа> API документация OpenAPI разработчикам», «<Платформа> разработчикам SDK»
 
 Deliverables
 - `competitors.jsonl` — NDJSON по схеме (1 строка = 1 платформа)
@@ -105,4 +106,3 @@ Deliverables
 Validation
 - Каждое критичное поле (DLT, УКЭП, банк/DvP) — минимум 2 независимых источника; если нет — помечать как unknown/mid/low.
 - Указывать дату публикации и дату проверки.
-
