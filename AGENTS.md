@@ -1,9 +1,9 @@
 ---
 created: 2025-10-30
-updated: 2025-10-31 06:40
-version: 1.2.0
+updated: 2025-10-31 15:20
+version: 1.2.1
 type: project-rules
-partAgentID: [co-76ca, cc-171f, cc-e4ee]
+partAgentID: [co-76ca, cc-171f, cc-e4ee, cc-03-0f8f]
 symlink_note: CLAUDE.md is a symlink to this file for SSOT
 ---
 
@@ -43,10 +43,20 @@ Branching & Commits
 ```
 memory-bank/Scrum/<date>-jump-into-project/{prefix}-{partAgentID}/
 Examples:
-  cc-171f/  # Claude Code agent 171f
+  cc-171f/  # Claude Code agent 171f (legacy format)
   co-76ca/  # Codex agent 76ca
   ge-abc1/  # Gemini agent abc1
 ```
+
+**Sequential Numbering for Multiple CC Agents:**
+When multiple Claude Code (cc-) agents work on the same project, use sequential numbering:
+```
+cc-01-{partAgentID}/  # First CC agent (if retrofitting legacy)
+cc-02-{partAgentID}/  # Second CC agent (if retrofitting legacy)
+cc-03-0f8f/           # Third CC agent (current)
+cc-04-{partAgentID}/  # Fourth CC agent (future)
+```
+This helps track the order in which CC agents joined the project and prevents folder naming conflicts.
 
 ### Symlink Strategy for SSOT
 **Note**: `CLAUDE.md` is a symlink to `AGENTS.md` to maintain Single Source of Truth
