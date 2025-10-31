@@ -90,6 +90,7 @@ Risks & Mitigations
 - [ ] Ledger смена → адаптер, договорённость о freeze интерфейсов
 
 Mapping Table (Traceability)
+
 | Area | Requirement | Source | Status |
 |---|---|---|---|
 | Permissioned DLT | Корпоративный блокчей и контроль валидаторов | My Thoughts:20 | [ ] |
