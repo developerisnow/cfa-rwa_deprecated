@@ -18,10 +18,9 @@ tags: [slides, executive, 30-60min]
 
 ## СЛАЙД 1: Статус & Что Сделано ✓
 
-### Discovery Phase: ОПЛАЧЕНО ✓
-- **40 часов**: $2,000 (prepaid)
+### Discovery Phase: 50h ✓
 - **Старт**: November 3, 2025
-- **Срок**: 1.5-2 недели
+- **Срок**: 1.5–2 недели
 
 ### Что Уже Готово (до Discovery)
 ✓ **Конкурентный анализ**: 20 платформ РФ ЦФА
@@ -29,6 +28,24 @@ tags: [slides, executive, 30-60min]
 ✓ **Research framework**: 2 направления (Ledger worldwide, CFA-RU)
 ✓ **Governance**: Multi-agent система, версионирование, трассировка
 ✓ **SOW**: Prepayment blocks, scope control, weekly demos
+
+---
+
+## СЛАЙД 1a: 10% Essence (Iceberg)
+
+### Что показываем на звонке
+- Executive Brief → 5 ключевых артефактов
+- Competitors (20) → рынок и приоритизация
+- SoW 50h + Architecture (C4) → как работаем
+- Roadmap (10–12 недель) → когда и в каком порядке
+- Kickoff (90m) → что решаем вместе
+
+### Портал (быстрые ссылки)
+- [[20251103-executive-brief]]
+- [[competitors-all-in-one]]
+- [[20251103-sow-architecture-overview]]
+- [[roadmap]]
+- [[kickoff-pack]]
 
 ---
 
