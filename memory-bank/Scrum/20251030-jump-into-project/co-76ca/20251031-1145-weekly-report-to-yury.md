@@ -44,7 +44,7 @@ Outcomes vs Plan (на эту неделю)
 - QA unknown (Лайтхаус DvP) — зафиксировано как неизвестно
 
 Next Week Plan
-- Утвердить Discovery 40h (SOW) и провести 90‑мин Kickoff‑сессию
+- Утвердить Discovery 50h (SOW) и провести 90‑мин Kickoff‑сессию
 - Точечные проверки: 
   - УКЭП/ГОСТ провайдеры (shortlist + SLAs/SDK)
   - Банк‑rails (1–2 банка; ISO 20022; escrow)

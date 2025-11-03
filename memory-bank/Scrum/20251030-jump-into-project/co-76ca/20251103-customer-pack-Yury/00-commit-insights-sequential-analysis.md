@@ -66,7 +66,7 @@ tags: [commits, insights, sequential-thinking]
 **Commits: 3ef94ba → b803c66 → 7f516c4 → aed218d → 498d0be**
 
 **Insight 5: SOW Framework for Client Management**
-- Discovery: 40h ($2-2.5k) prepaid
+- Discovery: 50h ($2-2.5k) prepaid
 - MVP: 3-4 sprints with prepayment blocks
 - Governance guardrails:
   - Weekly demos only
@@ -115,7 +115,7 @@ tags: [commits, insights, sequential-thinking]
 - **Design Pattern**: "10% essence of iceberg" for client
 
 **Insight 11: Kickoff Pack Components**
-- Discovery 40h scope defined
+- Discovery 50h scope defined
 - Glossary (ЦФА/RWA terms) with RU/EN/Domain/Why structure
 - Deliverables roadmap (MVP 10-12 weeks)
 - Weekly report template
@@ -195,7 +195,7 @@ tags: [commits, insights, sequential-thinking]
 
 ### Pattern 3: Prepayment-First Economics
 - Every deliverable tied to prepayment block
-- Discovery 40h = $2-2.5k upfront
+- Discovery 50h = $2-2.5k upfront
 - MVP blocks = $40-50/h with 100% prepay
 - **Risk Mitigation**: Protects against scope creep and non-payment
 
@@ -231,7 +231,7 @@ tags: [commits, insights, sequential-thinking]
 - **Decision**: Frontmatter with version tracking mandatory
 
 ### Oct 31 Mid
-- **Decision**: SOW with Discovery 40h + MVP blocks
+- **Decision**: SOW with Discovery 50h + MVP blocks
 - **Decision**: Deep research pipeline with early-stop criteria
 - **Decision**: Two research streams (Ledger worldwide, CFA-RU competitors)
 
@@ -261,17 +261,17 @@ tags: [commits, insights, sequential-thinking]
 
 ### Blocker 1: Ledger Selection (Unresolved → Memo Format)
 - **Issue**: Fabric vs Besu vs immudb decision pending
-- **Resolution**: Discovery 40h will produce memo with trade-offs
+- **Resolution**: Discovery 50h will produce memo with trade-offs
 - **Status**: Deferred to client decision after analysis
 
 ### Blocker 2: Bank DvP Rails (Unresolved → Shortlist)
 - **Issue**: Need 1-2 bank partners for T+0 settlement
-- **Resolution**: Discovery 40h will shortlist with integration notes
+- **Resolution**: Discovery 50h will shortlist with integration notes
 - **Status**: Deferred to client selection
 
 ### Blocker 3: УКЭП/ГОСТ Vendor (Unresolved → Shortlist)
 - **Issue**: Need UKEP/GOST provider for compliance
-- **Resolution**: Discovery 40h will shortlist with SLAs/SDK analysis
+- **Resolution**: Discovery 50h will shortlist with SLAs/SDK analysis
 - **Status**: Deferred to client selection
 
 ### Blocker 4: Lighthouse DvP Unknown (Accepted)
@@ -307,7 +307,7 @@ tags: [commits, insights, sequential-thinking]
 - 4 platforms deep-dive (Batch-1)
 - 2 research streams with evaluation framework
 - SOW + Kickoff + Roadmap + Glossary + Weekly Report
-- **Multiplier**: 46h input → 40h Discovery + MVP foundation
+- **Multiplier**: 46h input → 50h Discovery + MVP foundation
 
 ### Quality Assurance
 - ≥2 sources for critical fields (DLT/UKEP/DvP)
@@ -335,14 +335,14 @@ tags: [commits, insights, sequential-thinking]
 
 ## Recommendations for Next Agent (vk-xxxx or cc-04-xxxx)
 
-### Immediate (Discovery 40h Phase)
+### Immediate (Discovery 50h Phase)
 1. Run 4 MECE prompts (UKEP/GOST vendors, Bank DvP rails, AML/CFT minimum, Lighthouse DvP validation)
 2. Create C4 diagrams (Context/Containers)
 3. Draft event catalog and API contracts
 4. Produce ledger memo (Fabric/Besu/immudb trade-offs)
 5. Shortlist: 1-2 banks, 2-3 UKEP vendors
 6. Define MVP plan with DoD
-7. Consolidate into Discovery 40h report
+7. Consolidate into Discovery 50h report
 
 ### Near-Term (MVP Prep)
 1. Confirm bank partner and initiate integration spike

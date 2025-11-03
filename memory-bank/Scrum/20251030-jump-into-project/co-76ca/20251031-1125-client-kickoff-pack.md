@@ -12,7 +12,7 @@ tags: [client, kickoff, sow]
 ---
 
 TL;DR
-- Discovery 40h ($50/h) с предоплатой $2k–$2.5k: архитектура, события/API, ledger‑варианты, банк‑rails shortlist, УКЭП/ГОСТ вендор.
+- Discovery 50h ($50/h) с предоплатой $2k–$2.5k: архитектура, события/API, ledger‑варианты, банк‑rails shortlist, УКЭП/ГОСТ вендор.
 - MVP скоуп: первичка (Registry/KYC, Tokenization, Custody/HSM, DvP T+0, Disclosure). Вторичка (RFQ/OTC) — v1.1.
 - Роли: исследователь/аудитор/архитектор + частичный hands‑on; ежедневный менеджмент — не берём.
 

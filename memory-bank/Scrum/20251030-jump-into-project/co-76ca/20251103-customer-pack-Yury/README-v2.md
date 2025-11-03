@@ -12,7 +12,7 @@ version: 2.0.0
 tags: [yury, pack, discovery, enhanced]
 ---
 
-# Customer Pack для Yury — Discovery 40h ✓ PAID
+# Customer Pack для Yury — Discovery 50h ✓ PAID
 
 ## 🎯 Для Звонка 30-60 минут
 
@@ -27,7 +27,7 @@ tags: [yury, pack, discovery, enhanced]
 
 ### Главные документы
 - **01-PRESENTATION-ENHANCED.md** — Полная презентация (30-60 мин)
-  - Discovery 40h status (PAID ✓)
+  - Discovery 50h status (PAID ✓)
   - MVP scope, timeline, budget
   - Конкурентный анализ (20 платформ)
   - Технические решения & blockers
@@ -41,10 +41,10 @@ tags: [yury, pack, discovery, enhanced]
 
 ### Отчётность
 - **weekly-report.md** — Status update (client view)
-- **invoice-discovery-40h.md** — Invoice Discovery 40h (PAID ✓)
+- **invoice-discovery-40h.md** — Invoice Discovery 50h (PAID ✓)
 
 ### Discovery & Planning
-- **kickoff-pack.md** — Discovery 40h agenda + deliverables
+- **kickoff-pack.md** — Discovery 50h agenda + deliverables
 - **roadmap.md** — Timeline/budget/risks
 - **presentation.md** — Original compact version
 
@@ -134,6 +134,6 @@ tags: [yury, pack, discovery, enhanced]
 **Prepared by**: Claude Code (vk-8ad8) + Codex (co-76ca)
 **Date**: November 3, 2025
 **Version**: 2.0.0 (Enhanced)
-**Status**: Discovery 40h PAID ✓, Ready to Start 🚀
+**Status**: Discovery 50h PAID ✓, Ready to Start 🚀
 
 **agentIDPart**: 76ca, 8ad8

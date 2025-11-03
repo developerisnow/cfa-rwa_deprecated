@@ -12,11 +12,11 @@ tags: [roadmap]
 ---
 
 TL;DR
-- Discovery 40h (1.5–2 недели); MVP 10–12 недель (только первичка); пилот — после банковских rails/УКЭП.
-- Бюджет ориентир: Discovery $2k–$2.5k; MVP core 400–600h ($20k–$30k при $50/h) + интеграции.
+- Discovery 50h (1.5–2 недели); MVP 10–12 недель (только первичка); пилот — после банковских rails/УКЭП.
 
-Timeline (ориентир)
-- W1–W2: Discovery (C4, события, API, ledger memo, shortlist банка и УКЭП)
+Timeline (ориентир, параллельные треки)
+- Streams: A — Архитектура/События; B — Банк‑rails/УКЭП; C — Compliance/Security; D — Data/Reporting; E — UX Proto
+- W1–W2: A+B базовые решения; C/D минимум; E — быстрый прототип
 - W3–W6: Auth/KYC → Tokenization → DvP → Custody → Disclosure
 - W7–W8: Observability/Compliance/DR, рег. отчётность (минимум)
 - W9–W10: Dry‑run, UAT, фиксация DoD
@@ -27,4 +27,3 @@ Timeline (ориентир)
 
 Риски
 - Банк‑rails/УКЭП lead‑time; ledger выбор/заморозка интерфейсов; санкции/вендоры
-

@@ -15,7 +15,7 @@ tags: [yury, pack]
 - 00-call-brief.md — 10% выжимка для звонка 30–60 мин (agenda, достижения, решения, next steps). 
 - presentation.md — компактная презентация с ключевыми тезисами и next steps.
 - weekly-report.md — отчёт за неделю в «client view» формате.
-- kickoff-pack.md — Discovery 40h (повестка, deliverables, условия).
+- kickoff-pack.md — Discovery 50h (повестка, deliverables, условия).
 - roadmap.md — ориентир по срокам/объёму работ/рискам.
 - competitors-overview.md — витрина 20 платформ (DLT/DvP/вторичка/API/лицензии).
 - batch1-competitors.md — сводка по 4 ключевым платформам.

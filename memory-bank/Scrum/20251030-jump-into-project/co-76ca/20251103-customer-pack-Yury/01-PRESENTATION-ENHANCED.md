@@ -11,7 +11,7 @@ version: 2.0.0
 tags: [slides, executive, 30-60min]
 ---
 
-# ОИС ЦФА "Капитал" — Discovery 40h + MVP Roadmap
+# ОИС ЦФА "Капитал" — Discovery 50h + MVP Roadmap
 ## Презентация для 30-60 мин обсуждения с Yury
 
 ---
@@ -32,7 +32,7 @@ tags: [slides, executive, 30-60min]
 
 ---
 
-## СЛАЙД 2: Discovery 40h — Deliverables
+## СЛАЙД 2: Discovery 50h — Deliverables
 
 ### Что Получите
 1. **C4 Architecture** (Context/Containers диаграммы)
@@ -174,17 +174,17 @@ tags: [slides, executive, 30-60min]
 ## СЛАЙД 6: Критические Решения (3 Blocker)
 
 ### Blocker 1: Ledger Selection ⏳
-- **Status**: Discovery 40h will produce trade-off memo
+- **Status**: Discovery 50h will produce trade-off memo
 - **Your Decision Needed**: Choose direction (Fabric/Besu/immudb)
 - **Timeline**: Week 1 of Discovery (memo ready), Week 2 (confirm choice)
 
 ### Blocker 2: Bank DvP Rails ⏳
-- **Status**: Discovery 40h will shortlist 1-2 banks
+- **Status**: Discovery 50h will shortlist 1-2 banks
 - **Your Decision Needed**: Select bank partner, initiate integration talks
 - **Timeline**: Week 1 (shortlist), Week 2 (selection), then integration spike
 
 ### Blocker 3: УКЭП/ГОСТ Vendor ⏳
-- **Status**: Discovery 40h will shortlist 2-3 vendors
+- **Status**: Discovery 50h will shortlist 2-3 vendors
 - **Your Decision Needed**: Choose provider, procurement initiation
 - **Timeline**: Week 1 (shortlist), Week 2 (selection), then test CA setup
 
@@ -279,7 +279,7 @@ tags: [slides, executive, 30-60min]
 - **GitHub**: Two-repo strategy (public for client visibility, private for scaffolding)
 
 ### Prepayment Blocks (Guardrails)
-- **Discovery**: 40h ($2k) — PAID ✓
+- **Discovery**: 50h ($2k) — PAID ✓
 - **MVP Block 1**: 80-170h ($4k-$8.5k) — prepay before start
 - **MVP Block 2+**: Same structure, approved per block
 - **Change Requests**: New block, separate scope/pricing
@@ -329,7 +329,7 @@ tags: [slides, executive, 30-60min]
 ## СЛАЙД 11: Next Steps (Action Items)
 
 ### Immediate (This Week)
-1. ✓ **Confirm Discovery 40h PAID** (done)
+1. ✓ **Confirm Discovery 50h PAID** (done)
 2. ⏳ **Schedule 90-min Kickoff** (you + tech lead + me)
    - Agenda: Review Discovery scope, confirm deliverables, align on timeline
 3. ⏳ **Provide Context** (if available)
@@ -378,7 +378,7 @@ tags: [slides, executive, 30-60min]
 1. **presentation.md** (this file) — Executive overview
 2. **00-commit-insights-sequential-analysis.md** — Evolution of project (meta-analysis)
 3. **weekly-report.md** — Status update (client view)
-4. **kickoff-pack.md** — Discovery 40h agenda + deliverables
+4. **kickoff-pack.md** — Discovery 50h agenda + deliverables
 5. **roadmap.md** — Timeline/budget/risks
 6. **competitors-overview.md** — 20 platforms (high-level)
 7. **batch1-competitors.md** — 4 platforms (deep-dive)
@@ -398,7 +398,7 @@ tags: [slides, executive, 30-60min]
 **Date**: November 3, 2025
 **Version**: 2.0.0 (Enhanced with commit insights)
 **agentID**: vk-8ad8, co-76ca
-**Status**: Discovery 40h PAID ✓, Ready to Start
+**Status**: Discovery 50h PAID ✓, Ready to Start
 
 ---
 

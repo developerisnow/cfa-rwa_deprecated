@@ -201,7 +201,7 @@ Week 7-8: Settlement
 ### Payment Structure
 - **Blocks**: 40 hours prepaid
 - **Notification**: Alert at 30h consumed
-- **Stop work**: At 40h until next payment
+- **Stop work**: At 50h until next payment
 - **Current credit**: $707.68 from previous project
 
 ---

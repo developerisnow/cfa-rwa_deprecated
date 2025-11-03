@@ -29,7 +29,7 @@ Outcomes vs Plan (неделя)
 - QA unknown (Лайтхаус DvP) — зафиксировано как неизвестно
 
 Next Week Plan
-- Утвердить Discovery 40h и провести 90‑мин Kickoff‑сессию
+- Утвердить Discovery 50h и провести 90‑мин Kickoff‑сессию
 - Точечные проверки: УКЭП/ГОСТ, Банк‑rails, AML/CFT минимум, Lighthouse DvP (повторная проверка)
 
 Risks & Decisions
