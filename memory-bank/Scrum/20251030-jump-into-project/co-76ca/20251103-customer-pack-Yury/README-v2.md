@@ -12,7 +12,7 @@ version: 2.0.0
 tags: [yury, pack, discovery, enhanced]
 ---
 
-# Customer Pack для Yury — Discovery 50h ✓ PAID
+# Customer Pack для Yury — Discovery 50h ✓
 
 ## 🎯 Для Звонка 30-60 минут
 
@@ -41,7 +41,6 @@ tags: [yury, pack, discovery, enhanced]
 
 ### Отчётность
 - **weekly-report.md** — Status update (client view)
-- **invoice-discovery-40h.md** — Invoice Discovery 50h (PAID ✓)
 
 ### Discovery & Planning
 - **kickoff-pack.md** — Discovery 50h agenda + deliverables
@@ -61,17 +60,15 @@ tags: [yury, pack, discovery, enhanced]
 
 ## ✅ Ключевые факты
 
-### Discovery 40h
-- **Status**: PAID ✓
-- **Amount**: $2,000
+### Discovery 50h
+- **Status**: ✓
 - **Start**: November 3, 2025
-- **Duration**: 1.5-2 weeks
+- **Duration**: 1.5–2 weeks
 - **Deliverables**: 6 items (see Presentation, Slide 2)
 
 ### MVP Phase (After Discovery)
 - **Status**: Pending approval after Discovery Report
-- **Estimate**: $20k-$30k (400-600h @ $50/h)
-- **Duration**: 10-12 weeks
+- **Duration**: 10–12 weeks
 - **Scope**: Primary market only
 
 ### Critical Decisions (3 Blockers)
@@ -127,7 +124,6 @@ tags: [yury, pack, discovery, enhanced]
 ## 📞 Контакты
 - Email: [your-email]
 - Telegram: [your-telegram]
-- Payment: USDT TRC-20 [wallet]
 
 ---
 
