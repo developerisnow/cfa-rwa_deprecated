@@ -94,7 +94,7 @@ def main():
     # Optional API clients
     client = None
     id_to_email: Dict[str, str] = {}
-    if args.include-comments:
+    if args.include_comments:
         # import yougile sdk and build client
         import sys
         mcp_src = Path(os.environ.get('YOUGILE_MCP_SRC', '~/__Repositories/yougile/yougile-mcp__justrussian/src')).expanduser().resolve()
@@ -143,7 +143,7 @@ def main():
             rows.append((tid, title, u, domain, 'description'))
 
         # comment links via API
-        if args.include-comments and tid and client is not None:
+    if args.include_comments and tid and client is not None:
             import asyncio
             from src.api import chats as chats_api  # type: ignore
             async def _comments():
@@ -151,7 +151,17 @@ def main():
                     msgs = await chats_api.get_chat_messages(client, tid)
                 return msgs
             msgs = asyncio.run(_comments())
-            for m in msgs or []:
+            # Normalize message list
+            norm: List[dict] = []
+            if isinstance(msgs, dict):
+                msgs = msgs.get('content') or []
+            if isinstance(msgs, list):
+                for m in msgs:
+                    if isinstance(m, dict):
+                        norm.append(m)
+                    elif isinstance(m, str):
+                        norm.append({'text': m})
+            for m in norm:
                 text = m.get('textHtml') or m.get('text') or ''
                 for u in extract_links_from_text(text):
                     domain = urlparse(u).netloc
@@ -169,4 +179,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
