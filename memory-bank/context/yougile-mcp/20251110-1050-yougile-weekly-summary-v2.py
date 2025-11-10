@@ -101,9 +101,12 @@ def main():
     aliases = load_aliases(base)
     id_to_rel = build_id_to_relpath(base)
 
-    for sub in sorted(p for p in base.iterdir() if p.is_dir() and not p.name.startswith('.')):
-        if sub.name in {'__pycache__'}:
-            continue
+    creator_root = base / 'by-creator'
+    if not creator_root.exists():
+        print('by-creator folder not found; nothing to summarize')
+        return
+
+    for sub in sorted(p for p in creator_root.iterdir() if p.is_dir()):
         for md in sub.glob('*.md'):
             fm = parse_frontmatter(md)
             ts = safe_iso_to_dt(fm.get('yougile.timestamp',''))
@@ -167,4 +170,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
